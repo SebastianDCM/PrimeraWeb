@@ -1,0 +1,69 @@
+header {
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    padding: 1px
+}
+
+.titulado {
+    background: #736F5A;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique normal sans-serif;
+    font-weight: normal;
+    border: 3px solid rgb(189, 182, 146);
+    
+    
+}
+
+blockquote[cite] {
+    color: gray
+}
+
+p {
+    font-size: 14px;
+    width: 50%;
+
+    background-color: white;
+    
+}
+
+.parrafo {
+    padding: 30px;
+    text-align: justify;
+}
+
+time[datetime] {
+    font-size: 70%;
+}
+
+body {
+    background-color: #FFFBE2;
+}
+.final {
+    font-weight: lighter;
+    font-size: x-small;
+    font-variant: small-caps;
+    text-align: center;
+}
+nav {
+    background-color: #000;
+    color: #fff;
+    font-size: 125%;
+    text-align: center;
+    font-weight: bold;
+    
+}
+div {
+    width: 95%;
+    margin: auto}
+
+.menu li {
+    display: inline-block;
+    padding: 5px
+}
+
+section {
+    padding: 3px 20px 0 20px;
+}
