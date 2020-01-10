@@ -3,7 +3,7 @@ header {
     color: white;
     text-align: center;
     font-size: 150%;
-    padding: 1px
+    padding: 1px;
 }
 
 .titulado {
@@ -13,8 +13,16 @@ header {
     font-style: oblique normal sans-serif;
     font-weight: normal;
     border: 3px solid rgb(189, 182, 146);
-    
-    
+    padding: 7px 0 7px 0
+
+}
+.titulado2 {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique normal sans-serif;
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 110%;
 }
 
 blockquote[cite] {
@@ -23,8 +31,6 @@ blockquote[cite] {
 
 p {
     font-size: 14px;
-    width: 50%;
-
     background-color: white;
     
 }
@@ -36,6 +42,7 @@ p {
 
 time[datetime] {
     font-size: 70%;
+    color: gray;
 }
 
 body {
@@ -46,6 +53,7 @@ body {
     font-size: x-small;
     font-variant: small-caps;
     text-align: center;
+    clear: both;
 }
 nav {
     background-color: #000;
@@ -61,9 +69,38 @@ div {
 
 .menu li {
     display: inline-block;
-    padding: 5px
+    padding: 5px;
 }
 
 section {
     padding: 3px 20px 0 20px;
+    width: 60%;
+    float: left;
+} 
+
+aside {
+    width: 30%;
+    border: solid rgb(189, 182, 146) 3px;
+    float: left;
+    padding: 3px 35px 0 20px;
+    background-color: white;
+    margin: 23px 0 0 0;
+}
+aside blockquote {
+    padding: 100px 0 100px 0;
+    text-align: center;
+}
+
+article footer p {
+    text-align: right;
+    font-weight: lighter;
+}
+
+img {
+    width: 180px;
+    display: block;
+    margin: auto;
+}
+address {
+    margin: 30px 0 60px 0;
 }
